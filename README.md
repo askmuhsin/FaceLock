@@ -17,8 +17,9 @@ Like [SpotlightPro](https://github.com/askmuhsin/SpotlightPro), this is a focuse
 ## Quickstart (Local)
 
 ```bash
-uv run python -m app.main
-````
+pip install -r requirements.txt
+python -m app.main
+```
 
 Open [http://localhost:8000](http://localhost:8000).
 
@@ -60,7 +61,7 @@ docker run --rm -p 8000:8000 -e APP_SEED=dev-seed facelock
 * **FastHTML** — HTML-first framework (Starlette + HTMX + FastTags).
 * **MonsterUI** — Tailwind-based component library.
 * **Uvicorn** — ASGI server.
-* **uv** — dependency & run manager.
+* **Python pip** — dependency management.
 * **Docker** — containerized single-serve deployment.
 * **Fastlite (later phases)** — SQLite ORM for template storage.
 

@@ -14,7 +14,7 @@ Ship a privacy-first face re-ID demo where **only a non-invertible template** le
 - **FastHTML**: HTML-first, HTMX-driven interactions, FT tags.
 - **MonsterUI**: Theme headers and styled primitives; no SPA frameworks.
 - **Uvicorn**: ASGI server; `serve()` via FastHTML.
-- **uv**: one-command run/deps.
+- **Python pip**: standard dependency management.
 - **Docker**: container image for single-serve deployment.
 - **Fastlite** (later): SQLite ORM for templates/config.
 
@@ -38,5 +38,5 @@ Ship a privacy-first face re-ID demo where **only a non-invertible template** le
 - Client shows outbound payload; explicit labels mark local-only vs transmitted data.
 
 ## Deployment
-- Local: `uv run python -m app.main`
+- Local: `pip install -r requirements.txt && python -m app.main`
 - Docker: build/run as in README.

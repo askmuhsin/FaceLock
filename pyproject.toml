@@ -15,5 +15,3 @@ dependencies = [
 [project.scripts]
 serve = "app.main:serve_app"
 
-[tool.uv]
-# No special config required; uv will read dependencies above.
