@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+*.db
+*.log
+.env
+data/*
+static/models/*
+static/samples/*
