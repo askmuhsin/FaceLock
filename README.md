@@ -3,8 +3,6 @@
 **FaceLock** is a privacy-first face re-identification demo.  
 It shows that you can match faces without ever sending recognizable images or embeddings outside your device.  
 
-Like [SpotlightPro](https://github.com/askmuhsin/SpotlightPro), this is a focused, minimal product built to demonstrate a single sharp idea.
-
 ---
 
 ## Why FaceLock?
