@@ -1,6 +1,0 @@
-fasthtml>=0.4.0
-uvicorn[standard]>=0.30.0
-starlette>=0.37.2
-python-dotenv>=1.0.1
-fastlite>=0.0.5
-mistletoe>=1.4.0
